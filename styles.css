@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Proxima Nova, Arial, "sans-serif";
     line-height: 1.6;
     color: var(--text-color);
     background-color: #fff;
