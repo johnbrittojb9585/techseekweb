@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeckSeek - Enterprise & Mobile Development | Game Development | Domain Hosting</title>
+    <title>TeckSeek - Professional End-to-End Development Solutions | Enterprise | Mobile | Games</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -18,6 +18,7 @@
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#services" class="nav-link">Services</a>
                 <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
                 <a href="#portfolio" class="nav-link">Portfolio</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
@@ -31,9 +32,23 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to TeckSeek</h1>
-            <p>Your Partner in Enterprise Development, Mobile Innovation, Game Creation & Domain Solutions</p>
+        <div class=\"hero-shapes\">
+            <div class=\"shape shape-1\"></div>
+            <div class=\"shape shape-2\"></div>
+            <div class=\"shape shape-3\"></div>
+        </div>
+        <div class=\"hero-content\">
+            <div class=\"hero-animation\">
+                <svg viewBox=\"0 0 200 200\" class=\"floating-icon\">
+                    <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"none\" stroke=\"#00d4ff\" stroke-width=\"2\" opacity=\"0.3\"/>
+                    <circle cx=\"100\" cy=\"100\" r=\"60\" fill=\"none\" stroke=\"#0066ff\" stroke-width=\"2\" opacity=\"0.5\"/>
+                    <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"none\" stroke=\"#00d4ff\" stroke-width=\"2\"/>
+                    <path d=\"M 100 20 Q 140 60 100 100 Q 60 60 100 20\" fill=\"#0066ff\" opacity=\"0.8\"/>
+                </svg>
+            </div>
+            <h1 class=\"hero-title\">Welcome to TeckSeek</h1>
+            <p class=\"hero-subtitle\">Professional End-to-End Development Solutions</p>
+            <p class=\"hero-text\">Enterprise • Mobile • Games • Hosting</p>
             <button class="cta-button">Get Started Today</button>
         </div>
         <div class="hero-background"></div>
@@ -48,8 +63,11 @@
             <div class="services-grid">
                 <!-- Enterprise Development -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
+                    <div class="service-icon-container">
+                        <div class="animated-background"></div>
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
                     </div>
                     <h3>Enterprise Application Development</h3>
                     <p>Scalable, secure, and robust enterprise solutions tailored to your business requirements. We specialize in complex systems that drive organizational growth.</p>
@@ -64,8 +82,11 @@
 
                 <!-- Mobile Development -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                    <div class="service-icon-container">
+                        <div class="animated-background" style="animation-delay: 0.2s;"></div>
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
                     </div>
                     <h3>Mobile Development</h3>
                     <p>Native and cross-platform mobile applications for iOS and Android. User-centric designs that deliver exceptional mobile experiences.</p>
@@ -80,8 +101,11 @@
 
                 <!-- Game Development -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-gamepad"></i>
+                    <div class="service-icon-container">
+                        <div class="animated-background" style="animation-delay: 0.4s;"></div>
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
                     </div>
                     <h3>Game Development</h3>
                     <p>Engaging and innovative games for multiple platforms. From concept to launch, we create immersive gaming experiences.</p>
@@ -96,8 +120,11 @@
 
                 <!-- Domain Hosting -->
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-globe"></i>
+                    <div class="service-icon-container">
+                        <div class="animated-background" style="animation-delay: 0.6s;"></div>
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
                     </div>
                     <h3>Domain Hosting & Management</h3>
                     <p>Reliable hosting solutions with lightning-fast performance, security, and 24/7 support. Keep your online presence secure and accessible.</p>
@@ -119,29 +146,87 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>About TeckSeek</h2>
-                    <p>With over a decade of experience in digital transformation, TechSeek Web has established itself as a leader in technology solutions. Our team of expert developers, designers, and project managers work collaboratively to deliver exceptional results.</p>
+                    <p>TeckSeek is a dedicated technology solutions company providing end-to-end development services. We specialize in enterprise applications, mobile development, game creation, and domain hosting. Our mission is to transform your ideas into innovative digital solutions.</p>
                     <div class="stats">
                         <div class="stat">
-                            <h3>500+</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat">
                             <h3>50+</h3>
-                            <p>Team Members</p>
+                            <p>Projects Delivered</p>
                         </div>
                         <div class="stat">
-                            <h3>100+</h3>
-                            <p>Happy Clients</p>
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
                         </div>
                         <div class="stat">
-                            <h3>15+</h3>
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
                             <p>Years Experience</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
                     <div class="image-placeholder">
-                        <i class="fas fa-laptop-code"></i>
+                        <svg class="animated-laptop" viewBox="0 0 200 160" width="150" height="120">
+                            <!-- Monitor -->
+                            <rect x="20" y="20" width="160" height="100" rx="8" fill="none" stroke="#0066ff" stroke-width="2"/>
+                            <!-- Screen glow -->
+                            <rect x="25" y="25" width="150" height="90" fill="#0066ff" opacity="0.1" rx="5"/>
+                            <!-- Code lines -->
+                            <line x1="35" y1="40" x2="85" y2="40" stroke="#00d4ff" stroke-width="1.5" opacity="0.8"/>
+                            <line x1="35" y1="50" x2="95" y2="50" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+                            <line x1="35" y1="60" x2="75" y2="60" stroke="#00d4ff" stroke-width="1.5" opacity="0.8"/>
+                            <line x1="35" y1="70" x2="100" y2="70" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+                            <line x1="35" y1="80" x2="80" y2="80" stroke="#00d4ff" stroke-width="1.5" opacity="0.8"/>
+                            <line x1="35" y1="90" x2="90" y2="90" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+                            <!-- Stand -->
+                            <rect x="80" y="125" width="40" height="25" fill="none" stroke="#0066ff" stroke-width="2" rx="2"/>
+                            <!-- Base -->
+                            <rect x="60" y="150" width="80" height="3" fill="#0066ff" rx="1"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Core Team</h2>
+            <p class="section-subtitle">Experienced professionals dedicated to your success</p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <div class="team-image">
+                            <svg class="avatar-svg" viewBox="0 0 100 100">
+                                <!-- Head -->
+                                <circle cx="50" cy="35" r="18" fill="#0066ff" opacity="0.8"/>
+                                <!-- Shoulders -->
+                                <path d="M 30 55 Q 30 50 50 50 Q 70 50 70 55 L 70 70 Q 50 75 30 70 Z" fill="#0066ff" opacity="0.6"/>
+                                <!-- Glow effect -->
+                                <circle cx="50" cy="50" r="35" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#0066ff" stroke-width="0.5" opacity="0.2"/>
+                            </svg>
+                        </div>
+                        <div class="team-badge">Expert</div>
+                    </div>
+                    <h3>John Britto.A</h3>
+                    <p class="team-title">Founder & Lead Developer</p>
+                    <p class="team-experience">5+ Years in IT Industry Development</p>
+                    <p class="team-bio">Specialized in end-to-end development with extensive experience in enterprise solutions, mobile applications, and game development. Committed to delivering excellence in every project.</p>
+                    <div class="team-skills">
+                        <span class="skill-tag">Full Stack Development</span>
+                        <span class="skill-tag">Enterprise Architecture</span>
+                        <span class="skill-tag">Mobile Apps</span>
+                        <span class="skill-tag">Game Development</span>
+                    </div>
+                    <div class="team-social">
+                        <a href="https://johnbrittojb9585.github.io/portfolio/" title="Portfolio" class="social-link"><i class="fas fa-globe"></i></a>
+                        <a href="#" title="LinkedIn" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub" class="social-link"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -156,7 +241,12 @@
             
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
+                    <div class="portfolio-image portfolio-animated">
+                        <svg class="portfolio-svg" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.3"/>
+                            <path d="M 30 60 L 40 40 L 55 50 L 70 30" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="70" cy="30" r="3" fill="#00d4ff"/>
+                        </svg>
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>E-Commerce Platform</h3>
@@ -165,7 +255,12 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
+                    <div class="portfolio-image portfolio-animated">
+                        <svg class="portfolio-svg" viewBox="0 0 100 100" style="animation-delay: 0.2s;">
+                            <rect x="35" y="20" width="30" height="60" fill="none" stroke="#00d4ff" stroke-width="2" rx="3"/>
+                            <circle cx="50" cy="30" r="2" fill="#00d4ff"/>
+                            <line x1="38" y1="40" x2="62" y2="40" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+                        </svg>
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Fitness Tracker App</h3>
@@ -174,7 +269,11 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
+                    <div class="portfolio-image portfolio-animated">
+                        <svg class="portfolio-svg" viewBox="0 0 100 100" style="animation-delay: 0.4s;">
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="#00d4ff" stroke-width="2"/>
+                            <path d="M 50 25 L 65 40 L 50 50 L 35 40 Z" fill="#00d4ff" opacity="0.7"/>
+                        </svg>
                         <i class="fas fa-star"></i>
                     </div>
                     <h3>Adventure Quest Game</h3>
@@ -183,7 +282,14 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
+                    <div class="portfolio-image portfolio-animated">
+                        <svg class="portfolio-svg" viewBox="0 0 100 100" style="animation-delay: 0.6s;">
+                            <rect x="25" y="30" width="50" height="40" fill="none" stroke="#00d4ff" stroke-width="2" rx="2"/>
+                            <line x1="30" y1="40" x2="70" y2="40" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+                            <circle cx="35" cy="50" r="2" fill="#00d4ff"/>
+                            <circle cx="50" cy="50" r="2" fill="#00d4ff"/>
+                            <circle cx="65" cy="50" r="2" fill="#00d4ff"/>
+                        </svg>
                         <i class="fas fa-server"></i>
                     </div>
                     <h3>SaaS Infrastructure</h3>
@@ -215,28 +321,35 @@
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p><a href="tel:+919003370964">+91 9003370964</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email</h4>
-                            <p>info@teckseek.com</p>
+                            <h4>General Inquiries</h4>
+                            <p><a href="mailto:info@techseek.in">info@techseek.in</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Address</h4>
-                            <p>123 Tech Street, Silicon Valley, CA 94025</p>
+                            <h4>Support</h4>
+                            <p><a href="mailto:support@techseek.in">support@techseek.in</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Administration</h4>
+                            <p><a href="mailto:admin@techseek.in">admin@techseek.in</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
                             <h4>Business Hours</h4>
-                            <p>Mon - Fri: 9:00 AM - 6:00 PM EST</p>
+                            <p>Monday - Friday: 10:00 AM - 7:00 PM IST</p>
                         </div>
                     </div>
                 </div>
@@ -263,44 +376,41 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>TeckSeek</h4>
-                    <p>Your trusted partner in digital innovation and technology solutions.</p>
+                    <h4><i class="fas fa-code"></i> TeckSeek</h4>
+                    <p>Professional end-to-end development solutions for enterprise, mobile, and game development.</p>
                     <div class="social-links">
-                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
                         <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                         <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#services">Enterprise Development</a></li>
-                        <li><a href="#services">Mobile Development</a></li>
-                        <li><a href="#services">Game Development</a></li>
-                        <li><a href="#services">Domain Hosting</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe for updates and insights</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email" required>
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
+                    <h4>Contact Us</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="mailto:info@techseek.in"><i class="fas fa-envelope"></i> info@techseek.in</a></li>
+                        <li><a href="mailto:support@techseek.in"><i class="fas fa-envelope"></i> support@techseek.in</a></li>
+                        <li><a href="tel:+919003370964"><i class="fas fa-phone"></i> +91 9003370964</a></li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 10 AM - 7 PM IST</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Developer</h4>
+                    <p><strong>John Britto.A</strong></p>
+                    <p>5+ Years IT Industry Experience</p>
+                    <p><a href="https://johnbrittojb9585.github.io/portfolio/" target="_blank" class="footer-link"><i class="fas fa-globe"></i> View Portfolio</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 TeckSeek. All rights reserved.</p>
+                <p>&copy; 2026 TeckSeek. All rights reserved. | Crafted with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by John Britto.A</p>
             </div>
         </div>
     </footer>
