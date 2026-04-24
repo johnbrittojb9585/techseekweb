@@ -156,8 +156,15 @@ body {
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
     letter-spacing: -0.5px;
+    color: var(--dark-color);
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo i {
