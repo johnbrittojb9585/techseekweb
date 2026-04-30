@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TeckSeek | Premium Software Solutions</title>
+    <link rel="icon" type="image/png" href="company_logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .page-header {
+            padding: 8rem 0 4rem;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(208, 0, 0, 0.05), rgba(255, 107, 107, 0.05));
+            border-bottom: 1px solid rgba(208, 0, 0, 0.1);
+        }
+        .page-header h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+            animation: slideInUp 0.8s ease-out;
+        }
+        .page-header p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+            animation: fadeIn 1s ease-out 0.3s both;
+        }
+    </style>
+</head>
+<body class="products-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.8rem;">
+                    <img src="company_logo.png" alt="TeckSeek Logo" class="logo-image">
+                    TeckSeek
+                </a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html#home" class="nav-link">Home</a>
+                <a href="index.html#services" class="nav-link">Services</a>
+                <a href="products.html" class="nav-link active">Products</a>
+                <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#team" class="nav-link">Team</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="index.html#contact" class="nav-icon-link" aria-label="Search"><i class="fas fa-search"></i></a>
+                <a href="index.html#contact" class="nav-icon-link"><i class="fas fa-globe"></i> English</a>
+                <a href="mailto:info@techseek.in" class="nav-contact">info@techseek.in</a>
+                <a href="index.html#contact" class="nav-button" style="text-decoration: none;">Contact Sales</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-header-inner container">
+            <div class="page-header-copy">
+                <span class="eyebrow">AI-ready software products</span>
+                <h1>Products built for faster business operations.</h1>
+                <p>Discover TeckSeek software solutions designed for clean workflows, secure data, and reliable growth.</p>
+            </div>
+            <div class="product-hero-visual" aria-hidden="true">
+                <div class="product-orbit"></div>
+                <div class="product-core">
+                    <img src="company_logo.png" alt="">
+                </div>
+                <div class="product-chip product-chip-one"><i class="fas fa-wallet"></i> Ledger</div>
+                <div class="product-chip product-chip-two"><i class="fas fa-chart-line"></i> Analytics</div>
+                <div class="product-chip product-chip-three"><i class="fas fa-shield-alt"></i> Secure</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cash Manager Section -->
+    <section id="cash-manager" class="cash-manager" style="padding-top: 4rem;">
+        <div class="container">
+            <h2>Cash Manager</h2>
+            <p class="section-subtitle">Our flagship application for ultimate ledger management. Manage unlimited users and transactions for a lifetime.</p>
+            <div class="cash-card">
+                <div class="cash-card-header">
+                    <span class="cash-badge">Best Value</span>
+                    <h3>Cash Manager Pro</h3>
+                </div>
+                <div class="cash-card-body">
+                    <ul class="cash-features">
+                        <li><i class="fas fa-check"></i> Unlimited Users</li>
+                        <li><i class="fas fa-check"></i> Unlimited Transactions</li>
+                        <li><i class="fas fa-check"></i> Real‑time Analytics</li>
+                        <li><i class="fas fa-check"></i> Secure Cloud Backup</li>
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    </ul>
+                </div>
+                <div class="cash-card-footer">
+                    <div class="price">₹99 <span class="per-month">/ month</span></div>
+                    <a href="https://myledger.techseek.in" target="_blank" class="cta-button">Free Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Products Coming Soon -->
+    <section style="padding: 4rem 0 8rem; text-align: center; background: #fff;">
+        <div class="container">
+            <h3 style="color: var(--text-light); font-weight: 400; font-size: 1.5rem;">More innovative products coming soon...</h3>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Let's discuss your project and find the perfect solution for your needs.</p>
+            <a href="index.html#contact" class="cta-button-white" style="text-decoration: none; display: inline-block;">Schedule a Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-code"></i> TeckSeek</h4>
+                    <p>Professional end-to-end development solutions for enterprise, mobile, and game development.</p>
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="mailto:info@techseek.in"><i class="fas fa-envelope"></i> info@techseek.in</a></li>
+                        <li><a href="mailto:support@techseek.in"><i class="fas fa-envelope"></i> support@techseek.in</a></li>
+                        <li><a href="tel:+919003370964"><i class="fas fa-phone"></i> +91 9003370964</a></li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 10 AM - 7 PM IST</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Developer</h4>
+                    <p><strong>John Britto.A</strong></p>
+                    <p>5+ Years IT Industry Experience</p>
+                    <p><a href="https://johnbrittojb9585.github.io/portfolio/" target="_blank" class="footer-link"><i class="fas fa-globe"></i> View Portfolio</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TeckSeek. All rights reserved. | Crafted with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by John Britto.A</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
